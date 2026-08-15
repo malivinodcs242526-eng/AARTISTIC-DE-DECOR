@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+backend/uploads/images/*
+!backend/uploads/images/.gitkeep
+.angular
+.vscode
+*.log
+.DS_Store
