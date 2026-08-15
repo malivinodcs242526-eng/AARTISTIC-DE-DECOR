@@ -21,7 +21,7 @@ exports.login = async (req, res) => {
   try {
     const admin = await Admin.findOne({ email }).select('+password');
     if (!admin) {
-      return res.status(401).json({ success: false, message: 'Invalid credentials FOO BAR' });
+      return res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
 
     const isMatch = await admin.matchPassword(password);
