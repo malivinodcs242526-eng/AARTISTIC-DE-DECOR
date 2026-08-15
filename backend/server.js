@@ -11,13 +11,6 @@ const connectDB = require('./config/db');
 connectDB();
 
 const app = express();
-const fs = require('fs');
-
-// Ensure upload directory exists
-const uploadDir = path.join(__dirname, 'uploads/images');
-if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir, { recursive: true });
-}
 
 // Security Middleware
 app.use(helmet());

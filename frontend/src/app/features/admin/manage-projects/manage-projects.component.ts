@@ -170,6 +170,7 @@ export class ManageProjectsComponent implements OnInit {
   }
 
   getImageUrl(filename: string): string {
+    if (filename && filename.startsWith('http')) return filename;
     return `${environment.imageUrl}/${filename}`;
   }
 }

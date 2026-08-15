@@ -37,7 +37,7 @@ exports.createProject = async (req, res) => {
     const projectData = { ...req.body };
     
     if (req.files && req.files.length > 0) {
-      projectData.images = req.files.map(file => file.filename);
+      projectData.images = req.files.map(file => file.path);
     } else {
       return res.status(400).json({ success: false, message: 'Please upload at least one image' });
     }
@@ -65,7 +65,7 @@ exports.updateProject = async (req, res) => {
     
     // If new images are uploaded, add them to existing
     if (req.files && req.files.length > 0) {
-      const newImages = req.files.map(file => file.filename);
+      const newImages = req.files.map(file => file.path);
       updateData.images = [...project.images, ...newImages];
     }
 

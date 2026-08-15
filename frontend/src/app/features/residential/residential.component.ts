@@ -66,6 +66,7 @@ export class ResidentialComponent implements OnInit {
   }
 
   getImageUrl(filename: string): string {
+    if (filename && filename.startsWith('http')) return filename;
     if (!filename) return 'assets/placeholder.jpg';
     return `${environment.imageUrl}/${filename}`;
   }
