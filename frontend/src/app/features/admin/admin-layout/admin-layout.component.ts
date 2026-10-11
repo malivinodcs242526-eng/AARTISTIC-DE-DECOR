@@ -16,8 +16,8 @@ import { AuthService } from '../../../core/services/auth.service';
             <div class="bg-white rounded-full shadow-lg w-10 h-10 flex items-center justify-center overflow-hidden shrink-0">
               <img src="/assets/images/logo.png" alt="AARTISTIC DE' & DECOR" class="w-[120%] h-[120%] object-contain scale-110">
             </div>
-            <span class="text-lg font-bold font-sans tracking-wider text-primary truncate" title="AARTISTIC DE' & DECOR">
-              AARTISTIC DE'
+            <span class="text-lg font-bold font-sans tracking-wider text-primary truncate" title="ARTISTIC DÉ & DÉCOR">
+              ARTISTIC DÉ
             </span>
           </a>
         </div>

@@ -15,8 +15,15 @@ const app = express();
 // Security Middleware
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" })); // Allow images to load cross origin
+const allowedOrigins = [process.env.FRONTEND_URL, 'http://localhost:4200', 'http://localhost:4201'].filter(Boolean);
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1 || /^http:\/\/localhost:\d+$/.test(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
 

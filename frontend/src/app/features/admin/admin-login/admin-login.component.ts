@@ -13,12 +13,13 @@ import { AuthService } from '../../../core/services/auth.service';
       <div class="card p-8 md:p-12 w-full max-w-md shadow-2xl">
         <div class="text-center mb-8 flex flex-col items-center">
           <div class="bg-white rounded-full shadow-lg shadow-primary/20 w-24 h-24 flex items-center justify-center overflow-hidden mb-4 shrink-0">
-            <img src="/assets/images/logo.png" alt="AARTISTIC DE' & DECOR" class="w-[120%] h-[120%] object-contain scale-110">
+            <img src="/assets/images/logo.png" alt="ARTISTIC DÉ & DÉCOR" class="w-[120%] h-[120%] object-contain scale-110">
           </div>
-          <h2 class="text-2xl font-bold font-sans tracking-wider text-primary mb-2">
-            AARTISTIC DE' & DECOR
+          <h2 class="text-2xl font-bold font-sans tracking-wider text-primary mb-1">
+            ARTISTIC DÉ & DÉCOR
           </h2>
-          <p class="text-zinc-500 dark:text-gray-400 text-sm tracking-widest uppercase transition-colors duration-300">Admin Portal</p>
+          <p class="text-[10px] text-zinc-400 font-bold uppercase tracking-widest mb-1">Friendly Décor You Can Trust</p>
+          <p class="text-zinc-500 dark:text-gray-400 text-xs tracking-widest uppercase transition-colors duration-300">Admin Portal</p>
         </div>
 
         <div *ngIf="errorMessage" class="mb-6 p-4 bg-red-500/10 border border-red-500/30 text-red-400 rounded-lg text-sm text-center">

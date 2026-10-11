@@ -33,8 +33,9 @@ exports.uploadGalleryImage = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Please provide a category' });
     }
 
+    const imgPath = req.file.path && req.file.path.startsWith('http') ? req.file.path : (req.file.filename || req.file.path);
     const image = await GalleryImage.create({
-      filename: req.file.path,
+      filename: imgPath,
       category,
       title
     });
