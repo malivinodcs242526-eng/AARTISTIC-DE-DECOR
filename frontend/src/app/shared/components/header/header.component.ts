@@ -35,11 +35,11 @@ import { ThemeService } from '../../../core/services/theme.service';
             <a routerLink="/contact" routerLinkActive="text-primary dark:text-primary" class="hover:text-primary dark:hover:text-primary transition-colors">Contact</a>
             
             <!-- Quick Call Button -->
-            <a href="tel:7977015165" class="flex items-center gap-1.5 text-xs font-bold text-zinc-800 dark:text-zinc-100 hover:text-primary dark:hover:text-primary transition-colors bg-stone-100 dark:bg-zinc-900 px-3 py-1.5 rounded-full border border-gray-200 dark:border-zinc-800">
+            <a href="tel:+919619268820" class="flex items-center gap-1.5 text-xs font-bold text-zinc-800 dark:text-zinc-100 hover:text-primary dark:hover:text-primary transition-colors bg-stone-100 dark:bg-zinc-900 px-3 py-1.5 rounded-full border border-gray-200 dark:border-zinc-800">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5 text-primary">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.48-4.08-7.074-6.97l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
               </svg>
-              <span>7977015165</span>
+              <span>+91 96192 68820</span>
             </a>
 
             <a routerLink="/contact" class="btn-primary text-xs py-2 px-5">Get Quote</a>
@@ -58,7 +58,7 @@ import { ThemeService } from '../../../core/services/theme.service';
           </button>
           
           <!-- Mobile Contact Button -->
-          <a href="tel:7977015165" class="md:hidden text-primary p-2 rounded-full bg-stone-100 dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800" aria-label="Call Now">
+          <a href="tel:+919619268820" class="md:hidden text-primary p-2 rounded-full bg-stone-100 dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800" aria-label="Call Now">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.48-4.08-7.074-6.97l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
             </svg>

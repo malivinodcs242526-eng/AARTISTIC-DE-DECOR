@@ -13,7 +13,7 @@ import { MessageService } from '../../core/services/message.service';
         <h4 class="text-primary tracking-widest uppercase text-xs font-bold mb-2">Friendly Décor You Can Trust</h4>
         <h1 class="text-4xl md:text-5xl font-bold">Contact Our Studio</h1>
         <p class="text-zinc-600 dark:text-gray-400 mt-4 transition-colors duration-300">
-          Connect directly with Lead Interior Designer <strong>Omkar Pedamkar</strong> to discuss your commercial or residential interior styling.
+          Connect directly with Lead Interior Designer <strong>Shrutika</strong> to discuss your commercial or residential interior styling.
         </p>
       </div>
 
@@ -30,7 +30,7 @@ import { MessageService } from '../../core/services/message.service';
               </svg>
               <div>
                 <h4 class="font-bold">Message Sent Successfully!</h4>
-                <p class="text-sm mt-1 opacity-80">Thank you for reaching out to Omkar Pedamkar. We will get in touch with you shortly.</p>
+                <p class="text-sm mt-1 opacity-80">Thank you for reaching out to Shrutika. We will get in touch with you shortly.</p>
               </div>
             </div>
 
@@ -55,7 +55,7 @@ import { MessageService } from '../../core/services/message.service';
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label class="block text-sm font-medium text-zinc-700 dark:text-gray-300 mb-2 transition-colors duration-300">Phone Number *</label>
-                  <input type="tel" name="phone" ngModel required class="input-field" placeholder="e.g. 7977015165" #phone="ngModel">
+                  <input type="tel" name="phone" ngModel required class="input-field" placeholder="e.g. 9619268820" #phone="ngModel">
                   <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="text-red-500 text-xs mt-1">Phone is required</div>
                 </div>
                 <div>
@@ -97,11 +97,11 @@ import { MessageService } from '../../core/services/message.service';
               <!-- Lead Designer Block -->
               <div class="flex items-start gap-4 p-4 rounded-2xl bg-stone-100 dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800">
                 <div class="w-12 h-12 bg-primary/20 text-primary rounded-full flex items-center justify-center shrink-0 text-xl font-bold">
-                  OP
+                  S
                 </div>
                 <div>
                   <span class="text-xs font-bold tracking-widest uppercase text-primary">Lead Interior Designer</span>
-                  <h4 class="text-xl font-bold text-zinc-900 dark:text-white mt-0.5">Omkar Pedamkar</h4>
+                  <h4 class="text-xl font-bold text-zinc-900 dark:text-white mt-0.5">Shrutika</h4>
                   <p class="text-xs text-zinc-500 dark:text-gray-400 mt-1">Expert in contemporary residential & commercial interior aesthetics.</p>
                 </div>
               </div>
@@ -116,10 +116,10 @@ import { MessageService } from '../../core/services/message.service';
                 <div>
                   <h5 class="font-bold text-zinc-900 dark:text-white transition-colors duration-300">Direct Contact & WhatsApp</h5>
                   <p class="mt-1">
-                    <a href="tel:7977015165" class="text-lg font-bold hover:text-primary transition-colors text-zinc-900 dark:text-white">+91 7977015165</a>
+                    <a href="tel:+919619268820" class="text-lg font-bold hover:text-primary transition-colors text-zinc-900 dark:text-white">+91 96192 68820</a>
                   </p>
-                  <a href="https://wa.me/917977015165?text=Hello%20Omkar,%20I%20would%20like%20to%20inquire%20about%20interior%20design%20services" target="_blank" class="inline-flex items-center gap-1.5 text-primary text-sm font-bold hover:underline mt-1.5">
-                    <span>Chat with Omkar on WhatsApp</span> &rarr;
+                  <a href="https://wa.me/919619268820?text=Hello%20Shrutika,%20I%20would%20like%20to%20inquire%20about%20interior%20design%20services" target="_blank" class="inline-flex items-center gap-1.5 text-primary text-sm font-bold hover:underline mt-1.5">
+                    <span>Chat with Shrutika on WhatsApp</span> &rarr;
                   </a>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export class ContactComponent {
       error: (err) => {
         console.error(err);
         this.isSubmitting = false;
-        this.submitError = 'Failed to send message. Please try again or reach out directly at 7977015165.';
+        this.submitError = 'Failed to send message. Please try again or reach out directly at +91 96192 68820.';
       }
     });
   }

@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
           </p>
           <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-stone-200/80 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-800 text-xs">
             <span class="text-zinc-500 dark:text-gray-400">Designer:</span>
-            <strong class="text-zinc-900 dark:text-white font-semibold">Omkar Pedamkar</strong>
+            <strong class="text-zinc-900 dark:text-white font-semibold">Shrutika</strong>
           </div>
         </div>
 
@@ -50,11 +50,11 @@ import { RouterLink } from '@angular/router';
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-primary shrink-0">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.48-4.08-7.074-6.97l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
               </svg>
-              <a href="tel:7977015165" class="hover:text-primary font-bold text-zinc-800 dark:text-zinc-200 transition-colors">+91 7977015165</a>
+              <a href="tel:+919619268820" class="hover:text-primary font-bold text-zinc-800 dark:text-zinc-200 transition-colors">+91 96192 68820</a>
             </li>
             <li class="flex items-center justify-center md:justify-start gap-2">
               <span class="text-green-500 font-bold text-sm">💬</span>
-              <a href="https://wa.me/917977015165?text=Hello%20Omkar,%20I%20would%20like%20to%20inquire%20about%20interior%20design" target="_blank" class="hover:text-primary transition-colors text-primary font-semibold">Chat on WhatsApp</a>
+              <a href="https://wa.me/919619268820?text=Hello%20Shrutika,%20I%20would%20like%20to%20inquire%20about%20interior%20design" target="_blank" class="hover:text-primary transition-colors text-primary font-semibold">Chat on WhatsApp</a>
             </li>
             <li class="flex items-start justify-center md:justify-start gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-primary shrink-0 mt-0.5">
@@ -94,7 +94,7 @@ import { RouterLink } from '@angular/router';
       
       <div class="mt-12 pt-8 border-t border-gray-200 dark:border-zinc-900 text-center text-xs tracking-wider text-zinc-500 dark:text-zinc-500 transition-colors duration-300 flex flex-col sm:flex-row justify-between items-center container mx-auto px-4 lg:px-8 gap-3">
         <span>&copy; {{ currentYear }} ARTISTIC DÉ & DÉCOR — Friendly Décor You Can Trust.</span>
-        <span>Interior Designer: <strong class="text-zinc-700 dark:text-zinc-400">Omkar Pedamkar</strong></span>
+        <span>Interior Designer: <strong class="text-zinc-700 dark:text-zinc-400">Shrutika</strong></span>
       </div>
     </footer>
   `

@@ -26,23 +26,23 @@ import { RouterLink } from '@angular/router';
           </h1>
 
           <p class="text-zinc-600 dark:text-gray-300 text-lg md:text-xl mb-4 max-w-xl leading-relaxed transition-colors duration-300">
-            Crafted interior experiences and turnkey décor solutions for commercial and residential spaces led by <strong>Omkar Pedamkar</strong>.
+            Crafted interior experiences and turnkey décor solutions for commercial and residential spaces led by <strong>Shrutika</strong>.
           </p>
 
           <p class="text-xs uppercase tracking-widest text-zinc-500 dark:text-gray-400 mb-8 flex items-center gap-2">
             <span>📍 Panvel, Navi Mumbai</span>
             <span>•</span>
-            <span>📞 +91 7977015165</span>
+            <span>📞 +91 96192 68820</span>
           </p>
 
           <div class="flex flex-wrap gap-4 items-center">
             <a routerLink="/commercial" class="btn-primary">View Portfolio</a>
             <a routerLink="/contact" class="btn-outline">Book Consultation</a>
-            <a href="tel:7977015165" class="inline-flex items-center gap-2 text-sm font-bold text-zinc-800 dark:text-zinc-200 hover:text-primary transition-colors px-4 py-3">
+            <a href="tel:+919619268820" class="inline-flex items-center gap-2 text-sm font-bold text-zinc-800 dark:text-zinc-200 hover:text-primary transition-colors px-4 py-3">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 text-primary">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.48-4.08-7.074-6.97l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
               </svg>
-              <span>Call 7977015165</span>
+              <span>Call +91 96192 68820</span>
             </a>
           </div>
         </div>
@@ -56,11 +56,11 @@ import { RouterLink } from '@angular/router';
           <!-- Item 1: Designer -->
           <div class="flex flex-col md:flex-row items-center md:items-start gap-3">
             <div class="w-10 h-10 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold shrink-0">
-              OP
+              S
             </div>
             <div>
               <span class="text-[10px] uppercase font-bold tracking-widest text-primary block">Interior Designer</span>
-              <span class="font-bold text-zinc-900 dark:text-white text-sm">Omkar Pedamkar</span>
+              <span class="font-bold text-zinc-900 dark:text-white text-sm">Shrutika</span>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ import { RouterLink } from '@angular/router';
             </div>
             <div>
               <span class="text-[10px] uppercase font-bold tracking-widest text-primary block">Direct Contact</span>
-              <a href="tel:7977015165" class="font-bold text-zinc-900 dark:text-white text-sm hover:text-primary transition-colors">+91 7977015165</a>
+              <a href="tel:+919619268820" class="font-bold text-zinc-900 dark:text-white text-sm hover:text-primary transition-colors">+91 96192 68820</a>
             </div>
           </div>
 
@@ -231,11 +231,11 @@ import { RouterLink } from '@angular/router';
         <span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Personalized Interior Experience</span>
         <h3 class="text-3xl md:text-4xl font-bold mb-4 text-zinc-900 dark:text-white">Ready to Transform Your Space?</h3>
         <p class="text-zinc-600 dark:text-gray-300 mb-8 text-base">
-          Contact Omkar Pedamkar today to discuss your floor plan, styling ideas, and receive a friendly, transparent estimate.
+          Contact Shrutika today to discuss your floor plan, styling ideas, and receive a friendly, transparent estimate.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <a routerLink="/contact" class="btn-primary">Schedule Consultation</a>
-          <a href="https://wa.me/917977015165?text=Hello%20Omkar,%20I%20would%20like%20to%20discuss%20an%20interior%20design%20project" target="_blank" class="btn-outline flex items-center gap-2">
+          <a href="https://wa.me/919619268820?text=Hello%20Shrutika,%20I%20would%20like%20to%20discuss%20an%20interior%20design%20project" target="_blank" class="btn-outline flex items-center gap-2">
             <span>💬 Chat on WhatsApp</span>
           </a>
         </div>
