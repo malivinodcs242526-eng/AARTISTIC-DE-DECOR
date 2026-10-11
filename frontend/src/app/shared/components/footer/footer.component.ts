@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
           </p>
           <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-stone-200/80 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-800 text-xs">
             <span class="text-zinc-500 dark:text-gray-400">Designer:</span>
-            <strong class="text-zinc-900 dark:text-white font-semibold">Shrutika</strong>
+            <strong class="text-zinc-900 dark:text-white font-semibold">Shrutika Pedamkar</strong>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ import { RouterLink } from '@angular/router';
       
       <div class="mt-12 pt-8 border-t border-gray-200 dark:border-zinc-900 text-center text-xs tracking-wider text-zinc-500 dark:text-zinc-500 transition-colors duration-300 flex flex-col sm:flex-row justify-between items-center container mx-auto px-4 lg:px-8 gap-3">
         <span>&copy; {{ currentYear }} ARTISTIC DÉ & DÉCOR — Friendly Décor You Can Trust.</span>
-        <span>Interior Designer: <strong class="text-zinc-700 dark:text-zinc-400">Shrutika</strong></span>
+        <span>Interior Designer: <strong class="text-zinc-700 dark:text-zinc-400">Shrutika Pedamkar</strong></span>
       </div>
     </footer>
   `

@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
           </h1>
 
           <p class="text-zinc-600 dark:text-gray-300 text-lg md:text-xl mb-4 max-w-xl leading-relaxed transition-colors duration-300">
-            Crafted interior experiences and turnkey décor solutions for commercial and residential spaces led by <strong>Shrutika</strong>.
+            Crafted interior experiences and turnkey décor solutions for commercial and residential spaces led by <strong>Shrutika Pedamkar</strong>.
           </p>
 
           <p class="text-xs uppercase tracking-widest text-zinc-500 dark:text-gray-400 mb-8 flex items-center gap-2">
@@ -56,11 +56,11 @@ import { RouterLink } from '@angular/router';
           <!-- Item 1: Designer -->
           <div class="flex flex-col md:flex-row items-center md:items-start gap-3">
             <div class="w-10 h-10 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold shrink-0">
-              S
+              SP
             </div>
             <div>
               <span class="text-[10px] uppercase font-bold tracking-widest text-primary block">Interior Designer</span>
-              <span class="font-bold text-zinc-900 dark:text-white text-sm">Shrutika</span>
+              <span class="font-bold text-zinc-900 dark:text-white text-sm">Shrutika Pedamkar</span>
             </div>
           </div>
 
@@ -231,7 +231,7 @@ import { RouterLink } from '@angular/router';
         <span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Personalized Interior Experience</span>
         <h3 class="text-3xl md:text-4xl font-bold mb-4 text-zinc-900 dark:text-white">Ready to Transform Your Space?</h3>
         <p class="text-zinc-600 dark:text-gray-300 mb-8 text-base">
-          Contact Shrutika today to discuss your floor plan, styling ideas, and receive a friendly, transparent estimate.
+          Contact Shrutika Pedamkar today to discuss your floor plan, styling ideas, and receive a friendly, transparent estimate.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <a routerLink="/contact" class="btn-primary">Schedule Consultation</a>

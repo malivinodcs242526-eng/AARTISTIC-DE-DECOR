@@ -13,7 +13,7 @@ import { MessageService } from '../../core/services/message.service';
         <h4 class="text-primary tracking-widest uppercase text-xs font-bold mb-2">Friendly Décor You Can Trust</h4>
         <h1 class="text-4xl md:text-5xl font-bold">Contact Our Studio</h1>
         <p class="text-zinc-600 dark:text-gray-400 mt-4 transition-colors duration-300">
-          Connect directly with Lead Interior Designer <strong>Shrutika</strong> to discuss your commercial or residential interior styling.
+          Connect directly with Lead Interior Designer <strong>Shrutika Pedamkar</strong> to discuss your commercial or residential interior styling.
         </p>
       </div>
 
@@ -30,7 +30,7 @@ import { MessageService } from '../../core/services/message.service';
               </svg>
               <div>
                 <h4 class="font-bold">Message Sent Successfully!</h4>
-                <p class="text-sm mt-1 opacity-80">Thank you for reaching out to Shrutika. We will get in touch with you shortly.</p>
+                <p class="text-sm mt-1 opacity-80">Thank you for reaching out to Shrutika Pedamkar. We will get in touch with you shortly.</p>
               </div>
             </div>
 
@@ -97,11 +97,11 @@ import { MessageService } from '../../core/services/message.service';
               <!-- Lead Designer Block -->
               <div class="flex items-start gap-4 p-4 rounded-2xl bg-stone-100 dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800">
                 <div class="w-12 h-12 bg-primary/20 text-primary rounded-full flex items-center justify-center shrink-0 text-xl font-bold">
-                  S
+                  SP
                 </div>
                 <div>
                   <span class="text-xs font-bold tracking-widest uppercase text-primary">Lead Interior Designer</span>
-                  <h4 class="text-xl font-bold text-zinc-900 dark:text-white mt-0.5">Shrutika</h4>
+                  <h4 class="text-xl font-bold text-zinc-900 dark:text-white mt-0.5">Shrutika Pedamkar</h4>
                   <p class="text-xs text-zinc-500 dark:text-gray-400 mt-1">Expert in contemporary residential & commercial interior aesthetics.</p>
                 </div>
               </div>
