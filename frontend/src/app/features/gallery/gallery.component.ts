@@ -90,18 +90,20 @@ export class GalleryComponent implements OnInit {
     if (cat === 'All') {
       this.images = [...this.allImages];
     } else {
-      this.images = this.allImages.filter(img => img.category === cat);
+      this.images = this.allImages.filter(img => img.category?.toLowerCase() === cat.toLowerCase());
     }
   }
 
   getImageUrl(filename: string): string {
     if (!filename) return 'assets/placeholder.jpg';
-    if (filename.startsWith('http') || filename.startsWith('/')) return filename;
-    if (filename.startsWith('Images/')) return `/${filename}`;
-    if (filename.endsWith('.jpg') || filename.endsWith('.png') || filename.endsWith('.jpeg')) {
-      return `/Images/${filename}`;
+    if (filename.startsWith('http')) return filename;
+    let url = filename;
+    if (url.startsWith('Images/')) {
+      url = `/${url}`;
+    } else if (!url.startsWith('/')) {
+      url = `/Images/${url}`;
     }
-    return `${environment.imageUrl}/${filename}`;
+    return encodeURI(url);
   }
 
   openModal(image: GalleryImage) {

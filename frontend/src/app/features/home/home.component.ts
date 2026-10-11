@@ -173,7 +173,7 @@ import { RouterLink } from '@angular/router';
           <!-- Project 1 -->
           <div class="card group overflow-hidden">
             <div class="relative h-56 overflow-hidden">
-              <img src="/Images/Living room 1.jpg" alt="Luxury Living Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+              <img src="/Images/Living%20room%201.jpg" alt="Luxury Living Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
               <span class="absolute top-3 right-3 text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded-full bg-white/90 dark:bg-zinc-950/80 text-primary">Panvel</span>
             </div>
             <div class="p-5">
@@ -186,7 +186,7 @@ import { RouterLink } from '@angular/router';
           <!-- Project 2 -->
           <div class="card group overflow-hidden">
             <div class="relative h-56 overflow-hidden">
-              <img src="/Images/Andheri Office.jpg" alt="Corporate Office" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+              <img src="/Images/Andheri%20Office.jpg" alt="Corporate Office" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
               <span class="absolute top-3 right-3 text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded-full bg-white/90 dark:bg-zinc-950/80 text-primary">Andheri</span>
             </div>
             <div class="p-5">
@@ -199,7 +199,7 @@ import { RouterLink } from '@angular/router';
           <!-- Project 3 -->
           <div class="card group overflow-hidden">
             <div class="relative h-56 overflow-hidden">
-              <img src="/Images/Kitchen 1.jpg" alt="Modular Kitchen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+              <img src="/Images/Kitchen%201.jpg" alt="Modular Kitchen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
               <span class="absolute top-3 right-3 text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded-full bg-white/90 dark:bg-zinc-950/80 text-primary">Navi Mumbai</span>
             </div>
             <div class="p-5">
@@ -212,7 +212,7 @@ import { RouterLink } from '@angular/router';
           <!-- Project 4 -->
           <div class="card group overflow-hidden">
             <div class="relative h-56 overflow-hidden">
-              <img src="/Images/Comerrcial hospital.jpg" alt="Healthcare Clinic" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+              <img src="/Images/Comerrcial%20hospital.jpg" alt="Healthcare Clinic" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
               <span class="absolute top-3 right-3 text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded-full bg-white/90 dark:bg-zinc-950/80 text-primary">Healthcare</span>
             </div>
             <div class="p-5">
